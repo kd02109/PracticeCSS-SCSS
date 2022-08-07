@@ -1,0 +1,13 @@
+.column:hover .column__topic,
+.column:hover .column__title,
+.column:hover .column__content,
+.column:hover .column__button {
+  color: white;
+  border: 1px solid white;
+}
+.column:hover .column__topic button,
+.column:hover .column__title button,
+.column:hover .column__content button,
+.column:hover .column__button button {
+  background-color: white;
+}/*# sourceMappingURL=stules.css.map */

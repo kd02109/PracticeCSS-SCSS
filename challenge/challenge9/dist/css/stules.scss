@@ -1,0 +1,13 @@
+
+.column:hover{
+    .column__topic,
+    .column__title,
+    .column__content,
+    .column__button{
+        color:white;
+        border: 1px solid white;
+        button{
+            background-color: white;
+        }
+    }
+}
