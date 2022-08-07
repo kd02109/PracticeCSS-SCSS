@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@300;400;500;600&family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&family=Yrsa:wght@400;500&display=swap");
+.cv span,
+.about span, .works .works__header span {
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+}
+
+.works .works__list .works__work, .works .works__header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 5fr;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "PT Serif", serif;
+  padding: 40px;
+}
+
+header {
+  font-size: 46px;
+  letter-spacing: 1px;
+  margin-bottom: 150px;
+}
+
+.works {
+  margin-bottom: 80px;
+}
+.works .works__header {
+  padding-bottom: 10px;
+}
+.works .works__list .works__work {
+  font-family: "Nunito", sans-serif;
+  padding: 26px 0px;
+  border-top: 1px solid black;
+  font-size: 33px;
+  font-weight: 300;
+}
+.works .works__list .works__work:hover {
+  cursor: pointer;
+  font-style: italic;
+}
+
+.cv {
+  margin-bottom: 80px;
+}
+
+.cv,
+.about {
+  font-family: "Nunito", sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.cv a,
+.about a {
+  color: black;
+}
+.cv a:hover,
+.about a:hover {
+  font-style: italic;
+}/*# sourceMappingURL=styles.css.map */

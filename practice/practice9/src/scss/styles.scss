@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@300;400;500;600&family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&family=Yrsa:wght@400;500&display=swap');
+@import "_variable";
+@import "_mixins";
+@import "_buttion";
+@import "reset";
+
+body{
+    font-family: 'PT Serif', serif;
+    padding: 40px;
+}
+
+header{
+    font-size: 46px;
+    letter-spacing: 1px;
+    margin-bottom: 150px;
+}
+
+.works{
+    margin-bottom: 80px;
+    .works__header{
+        @extend %grid;
+        padding-bottom: 10px;
+        span{
+            @extend %tinyText;
+        }
+    }
+    .works__list{
+        .works__work{
+            font-family: 'Nunito', sans-serif;
+            @extend %grid;
+            padding: 26px 0px;
+            border-top: 1px solid black;
+            font-size: 33px;
+            font-weight: 300;
+            &:hover{
+                cursor: pointer;
+                font-style: italic;
+            }
+        }
+    }
+}
+.cv{
+    margin-bottom: 80px;
+}
+
+.cv,
+.about{
+    font-family: 'Nunito', sans-serif;;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    span{
+        @extend %tinyText;
+    }
+    a{
+        color: black;
+        &:hover{
+            font-style: italic;
+        }
+    }
+}

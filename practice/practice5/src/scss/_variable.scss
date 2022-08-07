@@ -1,0 +1,18 @@
+$fontMedium: 28px;
+
+%categoryTitle{
+    display: block;
+    font-weight: 500;
+    font-size:22px;
+    margin-bottom: 50px;
+}
+
+%btn{
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-weight: 600;
+}

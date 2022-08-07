@@ -1,0 +1,29 @@
+%minTitle{
+    font-family: "Montserrat";
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+%title{
+    font-family: "Lora";
+
+}
+
+%a{
+
+        width: 40%;
+        padding:  20px 0px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        border: 2px solid black;
+        text-transform: uppercase;
+        @extend %minTitle;
+        transition: color 0.3s linear, background 0.3s linear;
+        &:hover{
+            color: white;
+            background-color: black;
+}
+}
+
+$bg: #F3EDE8;

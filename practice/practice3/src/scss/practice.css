@@ -1,0 +1,74 @@
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: "blank1 blank2 menu" "number1 centerImage number2" "number3 centerImage number4" "number5 centerImage number6" "number7 centerImage number8" "number9 centerImage number10" "blank3 scrolling-text blank4";
+}
+
+.menu {
+  grid-area: menu;
+}
+
+.number:first-child {
+  grid-area: number1;
+}
+
+.number:nth-child(2) {
+  grid-area: number2;
+}
+
+.number:nth-child(3) {
+  grid-area: number3;
+}
+
+.number:nth-child(4) {
+  grid-area: number4;
+}
+
+.number:nth-child(5) {
+  grid-area: number5;
+}
+
+.number:nth-child(6) {
+  grid-area: number6;
+}
+
+.number:nth-child(7) {
+  grid-area: number7;
+}
+
+.number:nth-child(8) {
+  grid-area: number8;
+}
+
+.number:nth-child(9) {
+  grid-area: number9;
+}
+
+.number:last-child {
+  grid-area: number10;
+}
+
+.center-image {
+  grid-area: centerImage;
+}
+
+.blank:nth-child(1) {
+  grid-area: blank1;
+}
+
+.blank:nth-child(2) {
+  grid-area: blank2;
+}
+
+.blank:nth-child(3) {
+  grid-area: blank3;
+}
+
+.blank:nth-child(4) {
+  grid-area: blank4;
+}
+
+.scrolling-text {
+  grid-area: scrolling-text;
+}/*# sourceMappingURL=practice.css.map */

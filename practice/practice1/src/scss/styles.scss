@@ -1,0 +1,107 @@
+@import "reset";
+@import "_variable";
+
+body{
+    height: 100vh;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:$white;
+    width:$fixedWidth;
+    height: 100%;
+    padding: 0 0 72px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: $red;
+    h1{
+        font-size: 50px;
+        text-transform: uppercase;
+        width: 50%;
+        letter-spacing: 5px;
+    }
+    h3{
+       font-size: 20px;
+       font-weight: 400;
+       margin-bottom: 15px;
+    }
+    h3,P{
+        width: 60%;
+        text-align: justify;
+    }
+    p{
+        width: 70%;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+    nav{
+        width: 90%;
+        ul{
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            li{
+                cursor: pointer;
+                margin-right: 10px;
+                font-size: 12px;
+                color: black;
+                opacity: 0.5;
+                padding-bottom: 5px;
+                border-bottom: 1px solid rgba($color: black, $alpha: 0.5);
+                margin-bottom: 20px;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+        }
+    } 
+
+}
+
+main{
+    height: 5000vh;
+    margin-left: $fixedWidth;
+    .movie{
+        background: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.1),
+            rgba(0,0,0,0.1),
+            rgba(0,0,0,0)
+        ) $red;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: $white;
+        .wraper{
+            width: 70%;
+            .movie__header{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                align-items: flex-end;
+            }
+            h4{
+                font-size: 30px;
+                text-transform: uppercase;
+            }
+            h5{
+                font-size: 12px;
+                letter-spacing: 2px;
+            }
+        }
+
+        img{
+            height: 80%;
+            width: 100%;
+        }
+    }
+
+}
